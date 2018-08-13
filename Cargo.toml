@@ -1,0 +1,9 @@
+[package]
+name = "ill-prime"
+version = "0.1.0"
+authors = ["otakuto <otakuto893@gmail.com>"]
+
+[dependencies]
+num-bigint = { version = "0.2.0", features = ["rand"] }
+rand = "0.5.5"
+tiny-keccak = "1.4.2"
